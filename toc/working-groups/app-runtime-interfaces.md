@@ -63,6 +63,7 @@ areas:
   - name: App Autoscaler CI Bot
     github: app-autoscaler-ci-bot
   repositories:
+  - cloudfoundry/app-autoscaler
   - cloudfoundry/app-autoscaler-release
   - cloudfoundry/app-autoscaler-cli-plugin
   - cloudfoundry/app-autoscaler-env-bbl-state
@@ -117,6 +118,8 @@ areas:
   - cloudfoundry/hwc-buildpack-release
   - cloudfoundry/nodejs-buildpack
   - cloudfoundry/nodejs-buildpack-release
+  - cloudfoundry/php-buildpack
+  - cloudfoundry/php-buildpack-release
   - cloudfoundry/python-buildpack
   - cloudfoundry/python-buildpack-release
   - cloudfoundry/r-buildpack
@@ -184,8 +187,6 @@ areas:
     github: gururajsh
   - name: Sriram Nookala
     github: nookala
-  - name: George Gelashvili
-    github: pivotalgeorge
   repositories:
   - cloudfoundry/cloud_controller_ng
   - cloudfoundry/capi-release
@@ -226,8 +227,6 @@ areas:
     github: joaopapereira
   - name: Sam Gunaratne
     github: samze
-  - name: Greg Weresch
-    github: weresch
   reviewers:
   - name: George Gelashvili
     github: pivotalgeorge
@@ -235,8 +234,6 @@ areas:
     github: PeteLevineA
   - name: Tim Downey
     github: tcdowney
-  - name: Michael Chinigo
-    github: chinigo
   - name: Daria Anton
     github: Dariquest
   bots:
@@ -314,8 +311,6 @@ areas:
     github: theghost5800
   - name: Boyan Velinov
     github: boyan-velinov
-  - name: Rangel Ivanov
-    github: radito3
   - name: Ikasarov
     github: ikasarov
   - name: Velizar Kalapov
